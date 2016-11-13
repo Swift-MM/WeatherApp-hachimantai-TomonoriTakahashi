@@ -168,6 +168,15 @@
                                     <constraint firstItem="Bfq-F2-Wqo" firstAttribute="top" secondItem="8Z9-s0-Mr3" secondAttribute="bottom" constant="8" id="vNP-Dt-CKe"/>
                                 </constraints>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nqs-bP-BaU">
+                                <rect key="frame" x="311" y="686" width="83" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <state key="normal" title="全国の天気へ"/>
+                                <connections>
+                                    <segue destination="Ipa-zS-OSK" kind="modal" id="Ixj-1g-sYz"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -200,7 +209,39 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="32.799999999999997" y="54.422788605697157"/>
+            <point key="canvasLocation" x="31.884057971014496" y="53.804347826086961"/>
+        </scene>
+        <!--Second View Controller-->
+        <scene sceneID="Oce-qc-T6T">
+            <objects>
+                <viewController id="Ipa-zS-OSK" customClass="SecondViewController" customModule="WeatherApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="OVM-q2-mBq"/>
+                        <viewControllerLayoutGuide type="bottom" id="vmm-Jt-bhS"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="JK9-gy-yHl">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5VO-ir-lQ3">
+                                <rect key="frame" x="325" y="686" width="69" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <state key="normal" title="Topへ戻る"/>
+                                <connections>
+                                    <action selector="back:" destination="Ipa-zS-OSK" eventType="touchUpInside" id="Ewc-wq-nM7"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="5VO-ir-lQ3" secondAttribute="trailing" constant="10" id="NQw-FJ-LZT"/>
+                            <constraint firstItem="vmm-Jt-bhS" firstAttribute="top" secondItem="5VO-ir-lQ3" secondAttribute="bottom" constant="10" id="yVi-S6-1Zr"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vfb-Xs-I13" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="763.768115942029" y="50.54347826086957"/>
         </scene>
     </scenes>
 </document>

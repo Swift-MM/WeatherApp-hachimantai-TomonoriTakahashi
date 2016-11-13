@@ -32,6 +32,8 @@ class ViewController: UIViewController {
     
     
     
+    
+    
     // 気温のラベル用テキストを生成します。
     func generateTemperatureText(_ temperature: JSON) -> String {
         

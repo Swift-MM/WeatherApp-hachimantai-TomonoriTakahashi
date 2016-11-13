@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3223E9BC1DD841240009DC41 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3223E9BB1DD841240009DC41 /* SecondViewController.swift */; };
 		473221A7EE8F690496A68627 /* Pods_WeatherApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9A8D1386E0146713696D62B /* Pods_WeatherApp.framework */; };
 		D2AFC6CB1DD7E29100625144 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AFC6CA1DD7E29100625144 /* AppDelegate.swift */; };
 		D2AFC6CD1DD7E29100625144 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AFC6CC1DD7E29100625144 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3223E9BB1DD841240009DC41 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		501CE778378A2F8324DEB3FB /* Pods-WeatherApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeatherApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WeatherApp/Pods-WeatherApp.debug.xcconfig"; sourceTree = "<group>"; };
 		A9A8D1386E0146713696D62B /* Pods_WeatherApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WeatherApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2AFC6C71DD7E29100625144 /* WeatherApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -81,6 +83,7 @@
 				D2AFC6CA1DD7E29100625144 /* AppDelegate.swift */,
 				D2AFC6CC1DD7E29100625144 /* ViewController.swift */,
 				D2AFC6CE1DD7E29100625144 /* Main.storyboard */,
+				3223E9BB1DD841240009DC41 /* SecondViewController.swift */,
 				D2AFC6D11DD7E29100625144 /* Assets.xcassets */,
 				D2AFC6D31DD7E29100625144 /* LaunchScreen.storyboard */,
 				D2AFC6D61DD7E29100625144 /* Info.plist */,
@@ -211,6 +214,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3223E9BC1DD841240009DC41 /* SecondViewController.swift in Sources */,
 				D2AFC6CD1DD7E29100625144 /* ViewController.swift in Sources */,
 				D2AFC6CB1DD7E29100625144 /* AppDelegate.swift in Sources */,
 			);
