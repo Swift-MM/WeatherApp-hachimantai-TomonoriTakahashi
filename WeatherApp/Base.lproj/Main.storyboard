@@ -40,7 +40,7 @@
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="vIz-Od-oaC">
                                         <rect key="frame" x="0.0" y="32.000000000000007" width="200" height="114"/>
                                     </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d5c-ya-U2d">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d5c-ya-U2d">
                                         <rect key="frame" x="0.0" y="153.33333333333331" width="200" height="21"/>
                                         <color key="backgroundColor" red="0.4146715017" green="0.52248621480000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
@@ -87,7 +87,7 @@
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="xkL-vf-Ia9">
                                         <rect key="frame" x="0.0" y="32" width="150" height="64"/>
                                     </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="akF-uK-npB">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="akF-uK-npB">
                                         <rect key="frame" x="0.0" y="103.33333333333331" width="150" height="21"/>
                                         <color key="backgroundColor" red="0.4146715017" green="0.52248621480000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
@@ -134,7 +134,7 @@
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="s8Q-MP-2NU">
                                         <rect key="frame" x="0.0" y="32" width="150" height="64"/>
                                     </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Z9-s0-Mr3">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Z9-s0-Mr3">
                                         <rect key="frame" x="0.0" y="104" width="150" height="21"/>
                                         <color key="backgroundColor" red="0.4146715017" green="0.52248621480000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
@@ -183,24 +183,18 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="afterTomorrowImage" destination="s8Q-MP-2NU" id="6Fc-KR-HTL"/>
-                        <outlet property="afterTomorrowLabel" destination="qoz-So-5H3" id="52a-pn-UnV"/>
-                        <outlet property="afterTomorrowTemperatureLabel" destination="Bfq-F2-Wqo" id="gks-v1-dhI"/>
-                        <outlet property="afterTomorrowWeatherLabel" destination="8Z9-s0-Mr3" id="Mli-kB-CAr"/>
                         <outlet property="titleLabel" destination="No9-3u-aqR" id="jQg-4J-HDf"/>
-                        <outlet property="todayImage" destination="vIz-Od-oaC" id="pXB-wm-aiU"/>
-                        <outlet property="todayLabel" destination="wZF-kP-fkd" id="tFK-vJ-n1M"/>
-                        <outlet property="todayTemperatureLabel" destination="Ctl-Dc-lGe" id="J6T-Y3-oBo"/>
-                        <outlet property="todayWeatherLabel" destination="d5c-ya-U2d" id="Wqd-Ij-GGy"/>
-                        <outlet property="tomorrowImage" destination="xkL-vf-Ia9" id="85b-gx-daT"/>
-                        <outlet property="tomorrowLabel" destination="mPT-um-aOp" id="cfs-Yn-g8F"/>
-                        <outlet property="tomorrowTemperatureLabel" destination="zx6-ED-wno" id="7ne-wx-FWO"/>
-                        <outlet property="tomorrowWeatherLabel" destination="akF-uK-npB" id="nIG-J3-abK"/>
+                        <outletCollection property="weatherImageCollection" destination="vIz-Od-oaC" collectionClass="NSMutableArray" id="KZJ-EP-KAv"/>
+                        <outletCollection property="weatherImageCollection" destination="xkL-vf-Ia9" collectionClass="NSMutableArray" id="Igu-Ny-zEU"/>
+                        <outletCollection property="weatherImageCollection" destination="s8Q-MP-2NU" collectionClass="NSMutableArray" id="hXW-1A-46O"/>
+                        <outletCollection property="weatherLabelCollection" destination="d5c-ya-U2d" collectionClass="NSMutableArray" id="tDX-1b-Wgs"/>
+                        <outletCollection property="weatherLabelCollection" destination="akF-uK-npB" collectionClass="NSMutableArray" id="OQw-Z0-A2k"/>
+                        <outletCollection property="weatherLabelCollection" destination="8Z9-s0-Mr3" collectionClass="NSMutableArray" id="44M-6n-z6J"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="32.799999999999997" y="54.422788605697157"/>
+            <point key="canvasLocation" x="-851" y="-232"/>
         </scene>
     </scenes>
 </document>
