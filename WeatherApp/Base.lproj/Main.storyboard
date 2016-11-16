@@ -38,17 +38,17 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="vIz-Od-oaC">
-                                        <rect key="frame" x="0.0" y="32.000000000000007" width="200" height="114"/>
+                                        <rect key="frame" x="0.0" y="32" width="200" height="131"/>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d5c-ya-U2d">
-                                        <rect key="frame" x="0.0" y="153.33333333333331" width="200" height="21"/>
+                                        <rect key="frame" x="0.0" y="170.33333333333331" width="200" height="21"/>
                                         <color key="backgroundColor" red="0.4146715017" green="0.52248621480000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="- / -" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ctl-Dc-lGe">
-                                        <rect key="frame" x="0.0" y="183" width="200" height="17"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ctl-Dc-lGe">
+                                        <rect key="frame" x="0.0" y="200" width="200" height="0.0"/>
                                         <color key="backgroundColor" red="0.023900745899999999" green="0.98173674740000005" blue="0.054846015220000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <nil key="textColor"/>
@@ -85,17 +85,17 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="xkL-vf-Ia9">
-                                        <rect key="frame" x="0.0" y="32" width="150" height="64"/>
+                                        <rect key="frame" x="0.0" y="32" width="150" height="81"/>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="akF-uK-npB">
-                                        <rect key="frame" x="0.0" y="103.33333333333331" width="150" height="21"/>
+                                        <rect key="frame" x="0.0" y="120.33333333333331" width="150" height="21"/>
                                         <color key="backgroundColor" red="0.4146715017" green="0.52248621480000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="- / -" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zx6-ED-wno">
-                                        <rect key="frame" x="0.0" y="133" width="150" height="17"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zx6-ED-wno">
+                                        <rect key="frame" x="0.0" y="150" width="150" height="0.0"/>
                                         <color key="backgroundColor" red="0.023900745899999999" green="0.98173674740000005" blue="0.054846015220000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <nil key="textColor"/>
@@ -132,17 +132,17 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="s8Q-MP-2NU">
-                                        <rect key="frame" x="0.0" y="32" width="150" height="64"/>
+                                        <rect key="frame" x="0.0" y="32" width="150" height="81"/>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Z9-s0-Mr3">
-                                        <rect key="frame" x="0.0" y="104" width="150" height="21"/>
+                                        <rect key="frame" x="0.0" y="121" width="150" height="21"/>
                                         <color key="backgroundColor" red="0.4146715017" green="0.52248621480000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="- / -" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bfq-F2-Wqo">
-                                        <rect key="frame" x="0.0" y="133" width="150" height="17"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bfq-F2-Wqo">
+                                        <rect key="frame" x="0.0" y="150" width="150" height="0.0"/>
                                         <color key="backgroundColor" red="0.023900745899999999" green="0.98173674740000005" blue="0.054846015220000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <nil key="textColor"/>
@@ -184,17 +184,17 @@
                     </view>
                     <connections>
                         <outlet property="titleLabel" destination="No9-3u-aqR" id="jQg-4J-HDf"/>
-                        <outletCollection property="weatherImageCollection" destination="vIz-Od-oaC" collectionClass="NSMutableArray" id="KZJ-EP-KAv"/>
-                        <outletCollection property="weatherImageCollection" destination="xkL-vf-Ia9" collectionClass="NSMutableArray" id="Igu-Ny-zEU"/>
-                        <outletCollection property="weatherImageCollection" destination="s8Q-MP-2NU" collectionClass="NSMutableArray" id="hXW-1A-46O"/>
-                        <outletCollection property="weatherLabelCollection" destination="d5c-ya-U2d" collectionClass="NSMutableArray" id="tDX-1b-Wgs"/>
-                        <outletCollection property="weatherLabelCollection" destination="akF-uK-npB" collectionClass="NSMutableArray" id="OQw-Z0-A2k"/>
-                        <outletCollection property="weatherLabelCollection" destination="8Z9-s0-Mr3" collectionClass="NSMutableArray" id="44M-6n-z6J"/>
+                        <outletCollection property="weatherImageCollection" destination="vIz-Od-oaC" collectionClass="NSMutableArray" id="Ql8-VT-vDd"/>
+                        <outletCollection property="weatherImageCollection" destination="xkL-vf-Ia9" collectionClass="NSMutableArray" id="L5r-2w-Obs"/>
+                        <outletCollection property="weatherImageCollection" destination="s8Q-MP-2NU" collectionClass="NSMutableArray" id="4Ra-UH-CMy"/>
+                        <outletCollection property="weatherLabelCollection" destination="d5c-ya-U2d" collectionClass="NSMutableArray" id="Nwj-qV-nvr"/>
+                        <outletCollection property="weatherLabelCollection" destination="akF-uK-npB" collectionClass="NSMutableArray" id="gAf-Gq-CMD"/>
+                        <outletCollection property="weatherLabelCollection" destination="8Z9-s0-Mr3" collectionClass="NSMutableArray" id="ua4-wh-Cjb"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-851" y="-232"/>
+            <point key="canvasLocation" x="32.799999999999997" y="54.422788605697157"/>
         </scene>
     </scenes>
 </document>

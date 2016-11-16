@@ -21,6 +21,8 @@ class ViewController: UIViewController {
     let weatherJsonUrl:String = "http://weather.livedoor.com/forecast/webservice/json/v1?city=030010"
     
     
+    
+    
     // 気温のラベル用テキストを生成します。
     func generateTemperatureText(_ temperature: JSON) -> String {
         
@@ -94,7 +96,7 @@ class ViewController: UIViewController {
                 for var i:Int in 0..<forecasts.count{
                         let weatherInfo:JSON = forecasts[i]
                         
-                        self.weatherLabelCollection[i].text = weatherInfo["dateLabel"].stringValue + ":" + weatherInfo["telop"].stringValue + " " + self.generateTemperatureText(weatherInfo["temperature"])
+                        self.weatherLabelCollection[i].text = weatherInfo["dateLabel"].stringValue + "の天気:" + weatherInfo["telop"].stringValue + " " + self.generateTemperatureText(weatherInfo["temperature"])
                         if let imgUrl = weatherInfo["image"]["url"].string {
                             self.weatherImageCollection[i].sd_setImage(with: URL(string: imgUrl))
                         }
